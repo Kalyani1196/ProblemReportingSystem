@@ -1,0 +1,36 @@
+# Dependencies
+
+node_modules/
+.pnp
+.pnp.js
+
+# Production builds
+
+/build
+/dist
+frontend/build/
+
+# Environment variables - never commit credentials
+
+.env
+.env.*
+!.env.example
+
+# Logs
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Local uploads generated during testing
+
+backend/uploads/
+!backend/uploads/.gitkeep
+
+# OS and editor metadata
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
